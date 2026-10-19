@@ -1,0 +1,37 @@
+[
+  {
+    "file": "selected_three_systems.pt",
+    "sha256": "e2b6d3efb5b4b6b61a201fbd55df573c4e6f793e0abd75c69f045cc5a6011903",
+    "bytes": 24280821,
+    "original_name": "selected_three_systems_epoch_01_b06b88974bbe.pt",
+    "role": "Selected complete visual/text/learned-fusion export"
+  },
+  {
+    "file": "source_visual.pt",
+    "sha256": "11f170e26ba4e96a8ceaba4cbac66d26d5b8829aad9f79a1e898377eda92dfab",
+    "bytes": 4837361,
+    "original_name": "visual.pt",
+    "role": "Frozen robust visual source"
+  },
+  {
+    "file": "source_text.pt",
+    "sha256": "63d4fbc8afcd15ee39df27ad9fc8eec966d365b8c9ee02cef4f99c8bc79a98a4",
+    "bytes": 18107661,
+    "original_name": "text.pt",
+    "role": "Frozen legacy text source"
+  },
+  {
+    "file": "visual_phase1.pt",
+    "sha256": "c3a0cc0601e23f732a4a9ce86dddb6a3a1a6501183263a850fdc44689e079fde",
+    "bytes": 4835889,
+    "original_name": "source_original.pt",
+    "role": "Visual before geometric augmentation"
+  },
+  {
+    "file": "legacy_visual_200k.pt",
+    "sha256": "9551f2c9e7e3a5b1d0a0d31264e0d67be612995d196d09c76fd190b23494008c",
+    "bytes": 4857755,
+    "original_name": "abl_visual_n200000_seed42.pt",
+    "role": "Original 200K visual warm-start source"
+  }
+]
