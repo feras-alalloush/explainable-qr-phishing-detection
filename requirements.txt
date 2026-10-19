@@ -1,0 +1,14 @@
+# Dependency inventory; see actual recorded versions after Kaggle collection.
+# Install an appropriate torch/torchvision CPU or CUDA pair for your platform.
+torch
+torchvision
+transformers
+tokenizers
+numpy
+pandas
+scikit-learn
+Pillow
+pyarrow
+matplotlib
+tqdm
+opencv-python-headless
