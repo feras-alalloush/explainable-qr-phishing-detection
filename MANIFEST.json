@@ -21,9 +21,9 @@
       "sha256": "5bdec73684b42cf85a5ea70d652daca9f7959e19e2f569f89d54b3baa9e26973"
     },
     {
-      "path": "CITATION.cff",
-      "bytes": 310,
-      "sha256": "435712552c82c81806a8e3f731e55232086d3c542cfd0a55aa98939422dabf95"
+        "path": "CITATION.cff",
+        "bytes": 296,
+        "sha256": "cf3f3c22acbb4b6dbcca8c908da26abef34c0a95e97cd4dc8078d3a0f25061a1"
     },
     {
       "path": "data/audit.json",
