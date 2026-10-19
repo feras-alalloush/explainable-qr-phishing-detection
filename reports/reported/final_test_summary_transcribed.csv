@@ -1,0 +1,5 @@
+system,samples,accuracy_pct,macro_f1_pct,malicious_precision_pct,malicious_recall_pct,malicious_f1_pct,roc_auc,provenance
+visual,146425,83.13813,82.84535,88.66732,81.78356,85.08644,0.90262,author_console_output
+text,146425,96.81270,96.70367,96.84707,97.76359,97.30317,0.99505,author_console_output
+feature_fusion,146425,97.62677,97.55298,98.19906,97.75778,97.97792,0.99578,author_console_output
+text_with_visual_fallback,146425,97.56667,97.49285,98.31794,97.53135,97.92307,0.99680,author_console_output

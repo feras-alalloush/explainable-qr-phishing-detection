@@ -1,0 +1,10 @@
+reference,comparison,group,samples,both_correct,both_wrong,reference_wrong_fusion_correct,reference_correct_fusion_wrong
+visual,feature_fusion,all,146425,120496,2236,22454,1239
+visual,feature_fusion,url_available,139305,113783,1829,22454,1239
+visual,feature_fusion,url_missing,7120,6713,407,0,0
+text,feature_fusion,all,146425,141374,3091,1576,384
+text,feature_fusion,url_available,139305,135965,2884,272,184
+text,feature_fusion,url_missing,7120,5409,207,1304,200
+text_with_visual_fallback,feature_fusion,all,146425,142678,3291,272,184
+text_with_visual_fallback,feature_fusion,url_available,139305,135965,2884,272,184
+text_with_visual_fallback,feature_fusion,url_missing,7120,6713,407,0,0

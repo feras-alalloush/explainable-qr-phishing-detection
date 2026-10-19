@@ -1,0 +1,16 @@
+{
+  "runtime": {
+    "workers": 2,
+    "torch_threads": 1,
+    "prefetch_factor": 2,
+    "epochs_this_call": 1,
+    "version": "parallel_resume_v1"
+  },
+  "resumed_after_epoch": 1,
+  "source_sha256": "c3a0cc0601e23f732a4a9ce86dddb6a3a1a6501183263a850fdc44689e079fde",
+  "versions": {
+    "torch": "2.10.0+cu128",
+    "torchvision": "0.25.0+cu128"
+  },
+  "note": "Worker count changes augmentation RNG sequence; model/data/optimizer settings unchanged."
+}

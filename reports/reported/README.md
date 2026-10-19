@@ -1,0 +1,1 @@
+These summaries are transcribed from console outputs supplied by the author in this conversation. They are not fresh evaluations. Kaggle collection adds the original full-precision CSV/JSON reports under reports/final_test/ and histories under reports/training/. Do not combine results from different splits, model versions or input policies without labels.

@@ -1,0 +1,2 @@
+{"strict_load": true, "synthetic_forward": true, "missing_url_fallback": true, "real_image_test": false}
+

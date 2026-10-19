@@ -1,0 +1,20 @@
+{
+  "original_samples": 1005738,
+  "retained_samples": 1005700,
+  "removed_samples": 38,
+  "clean_duplicates": true,
+  "conflicting_hash_groups_original": 19,
+  "host_groups_across_splits": 0,
+  "byte_hashes_across_splits": 0,
+  "decoded_urls_across_splits": 0,
+  "conflicts_retained": 0,
+  "train_ready": true,
+  "data_signature": "d4509181f834a16144ad45e24b8ce686a4e608e07a9846a880757c705739d1ff",
+  "membership": "saved CSV; no reassignment",
+  "source_splits_sha256": "4528f7378e5f99c9ae573fb01436eeb3de4f7b5ae3079c1c9b9d3e0cfc30dd35",
+  "image_roots": [
+    "/kaggle/input/datasets/feras2004/qr-all-benign/QR_All_benign/qrs",
+    "/kaggle/input/datasets/feras2004/qr-all-benign/QR_All_Malicious/qrs"
+  ],
+  "parquet_sha256": "02e92e850a9e838a6118de3f345915452b736d2532d64d9cb3a84b228518cd4e"
+}

@@ -1,0 +1,4 @@
+split,benign,malicious,total
+train,307422,403324,710746
+val,62230,86299,148529
+test,60305,86120,146425

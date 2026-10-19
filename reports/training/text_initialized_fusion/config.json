@@ -1,0 +1,83 @@
+{
+  "cfg": {
+    "seed": 42,
+    "max_len": 128,
+    "feature_batch_size": 128,
+    "shard_rows": 4096,
+    "workers": 2,
+    "head_batch_size": 1024,
+    "head_lr": 0.0001,
+    "weight_decay": 1e-05,
+    "label_smoothing": 0.1,
+    "head_epochs": 5,
+    "patience": 2,
+    "clip": 1.0,
+    "threshold": 0.5,
+    "precision": "FP32",
+    "feature_version": 1,
+    "missing_url_policy": "fusion_falls_back_to_visual",
+    "fusion_init": "text_head; zero visual columns in first layer",
+    "training": "freeze both source models; train fusion head on available-URL Train rows"
+  },
+  "data_signature": "d4509181f834a16144ad45e24b8ce686a4e608e07a9846a880757c705739d1ff",
+  "visual_sha256": "11f170e26ba4e96a8ceaba4cbac66d26d5b8829aad9f79a1e898377eda92dfab",
+  "text_sha256": "63d4fbc8afcd15ee39df27ad9fc8eec966d365b8c9ee02cef4f99c8bc79a98a4",
+  "bert_config": {
+    "return_dict": true,
+    "output_hidden_states": false,
+    "dtype": null,
+    "chunk_size_feed_forward": 0,
+    "is_encoder_decoder": false,
+    "architectures": null,
+    "id2label": {
+      "0": "LABEL_0",
+      "1": "LABEL_1"
+    },
+    "label2id": {
+      "LABEL_0": 0,
+      "LABEL_1": 1
+    },
+    "problem_type": null,
+    "_name_or_path": "",
+    "transformers_version": "5.0.0",
+    "pad_token_id": 0,
+    "is_decoder": false,
+    "add_cross_attention": false,
+    "bos_token_id": null,
+    "eos_token_id": null,
+    "tie_word_embeddings": true,
+    "vocab_size": 30522,
+    "hidden_size": 128,
+    "num_hidden_layers": 2,
+    "num_attention_heads": 2,
+    "hidden_act": "gelu",
+    "intermediate_size": 512,
+    "hidden_dropout_prob": 0.1,
+    "attention_probs_dropout_prob": 0.1,
+    "max_position_embeddings": 512,
+    "type_vocab_size": 2,
+    "initializer_range": 0.02,
+    "layer_norm_eps": 1e-12,
+    "use_cache": true,
+    "classifier_dropout": null,
+    "model_type": "bert",
+    "output_attentions": false
+  },
+  "has_pooler": true,
+  "tokenizer_id": "prajjwal1/bert-tiny",
+  "vocab_sha256": "4d340ba6df0d188a0bc2fdae2f8f4279427ea92d4c2457be7ae8fa149027d0b4",
+  "tokenizer_special_ids": {
+    "cls": 101,
+    "sep": 102,
+    "pad": 0
+  },
+  "tokenizer_files_sha256": {
+    "tokenizer_config.json": "035996d5b54a8c1c1ef3906781f5d6af5080493ccb35e89f66a9fb5e97f1c0b8",
+    "tokenizer.json": "07d1d2c813264a602562acb9016b3c0f3c87ad3dd15e06c8914409e4a6cd287f"
+  },
+  "tokenizer_lower_case": false,
+  "versions": {
+    "torch": "2.10.0+cu128",
+    "torchvision": "0.25.0+cu128"
+  }
+}

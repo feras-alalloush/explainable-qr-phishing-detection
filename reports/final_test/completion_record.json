@@ -1,0 +1,123 @@
+{
+  "status": "completed",
+  "files": [
+    {
+      "file": "visual_url_available_classification_report.txt",
+      "bytes": 326,
+      "sha256": "852e119255995aa64a772887b75928da611a55a39d07ec26b072f739a87039ae"
+    },
+    {
+      "file": "visual_url_missing_classification_report.txt",
+      "bytes": 326,
+      "sha256": "d0786f4d05c16f097177cff10276288d512423195fc13f89c97888762fae1ca4"
+    },
+    {
+      "file": "text_with_visual_fallback_url_available_classification_report.txt",
+      "bytes": 326,
+      "sha256": "5c21a8a6c5d0963ed4eea58139f118c476712678d7c22c06fb9cb2cfb1cb43a5"
+    },
+    {
+      "file": "test_roc_pr.png",
+      "bytes": 107711,
+      "sha256": "3f0237f37e2553ec78e5b39ae201ce650d1c0c0e074c2751ae4c5e6ce8c666b2"
+    },
+    {
+      "file": "text_with_visual_fallback_confusion_matrix.png",
+      "bytes": 37677,
+      "sha256": "2839732a3608b21dcb8a5218d8c33a27b94ec98cf5c9cf22ae751ac1abfe9b30"
+    },
+    {
+      "file": "test_three_systems_comparison.csv",
+      "bytes": 2513,
+      "sha256": "a4ece97855b35d1d29c29e80ef36b128361e7b450b6204971030c2651bcedb00"
+    },
+    {
+      "file": "visual_confusion_matrix.png",
+      "bytes": 34320,
+      "sha256": "1d0d90707b8aeee1130c965da9a5032ea9187025fa1060f44bbcd3bfc71d97aa"
+    },
+    {
+      "file": "feature_fusion_url_available_classification_report.txt",
+      "bytes": 326,
+      "sha256": "f78f7e4f45fed5b8ee61f478555751c2f0a46084367400342fec0cd435711d73"
+    },
+    {
+      "file": "text_confusion_matrix.png",
+      "bytes": 32642,
+      "sha256": "a8363623e8f5c6522b72e72c5c6912a790ca5887bb62266890aae6855dad76a2"
+    },
+    {
+      "file": "text_url_available_classification_report.txt",
+      "bytes": 326,
+      "sha256": "5c21a8a6c5d0963ed4eea58139f118c476712678d7c22c06fb9cb2cfb1cb43a5"
+    },
+    {
+      "file": "feature_fusion_url_missing_classification_report.txt",
+      "bytes": 326,
+      "sha256": "d0786f4d05c16f097177cff10276288d512423195fc13f89c97888762fae1ca4"
+    },
+    {
+      "file": "text_with_visual_fallback_url_missing_classification_report.txt",
+      "bytes": 326,
+      "sha256": "d0786f4d05c16f097177cff10276288d512423195fc13f89c97888762fae1ca4"
+    },
+    {
+      "file": "feature_fusion_all_classification_report.txt",
+      "bytes": 326,
+      "sha256": "76e7a4f95bb6ce651a7bc4b6885698eb6ae211e6f1535733df2f534786bd63c2"
+    },
+    {
+      "file": "paired_correctness_counts.csv",
+      "bytes": 688,
+      "sha256": "3b78169e7e75e7432932958b822f80bdc56664ed5b8b5a02bf0f0bcd8e669286"
+    },
+    {
+      "file": "test_predictions.csv.gz",
+      "bytes": 10029290,
+      "sha256": "57e3a815ab6b8188bbebdbde9929d4c6976f5c1c8d29b7eeb60e4c176e1fd650"
+    },
+    {
+      "file": "text_all_classification_report.txt",
+      "bytes": 326,
+      "sha256": "12af120e9049daab83eb3c36865b870b5f6ec7d473782f6c3a60859313561ec9"
+    },
+    {
+      "file": "test_metrics.json",
+      "bytes": 5694,
+      "sha256": "ea2e7e18672b260ac205c479652c453974809e2626f8105c923fc1f9bd8d8cea"
+    },
+    {
+      "file": "test_all_systems_summary.csv",
+      "bytes": 935,
+      "sha256": "ae405e909acaa7be46f3aa1088741d1333e6fe83ac9c9231ac067d3f4c840bfb"
+    },
+    {
+      "file": "evaluation_contract.json",
+      "bytes": 1267,
+      "sha256": "f159f30b75294cd8c2bd0b0c75e3e0017d8ca5e091b3d886de337c4869b7a4f3"
+    },
+    {
+      "file": "text_url_missing_classification_report.txt",
+      "bytes": 326,
+      "sha256": "5b2f9f6b17b313ccd7c02348d07563d37b80d9630188ebca5eaee3aaf8392bd5"
+    },
+    {
+      "file": "feature_fusion_confusion_matrix.png",
+      "bytes": 34925,
+      "sha256": "2cc9a529fcd6a09a3a77d8f5ddf5d6bc3afe55a7a48b1db1f66278e091214a10"
+    },
+    {
+      "file": "text_with_visual_fallback_all_classification_report.txt",
+      "bytes": 326,
+      "sha256": "27c5e13afd10e651a69523a9bcdbdb2fe0bb586f5737a0f9359b4037b02cb7fe"
+    },
+    {
+      "file": "visual_all_classification_report.txt",
+      "bytes": 326,
+      "sha256": "3ccbf0337c5d5979efe39a76425b03eb7406f720897aeb8c3c5b66b06a9cd79e"
+    }
+  ],
+  "checkpoint_unchanged": true,
+  "test_samples": 146425,
+  "note": "Fixed-weight evaluation; no training, threshold search, Test-based model selection or fresh QR decoding."
+}

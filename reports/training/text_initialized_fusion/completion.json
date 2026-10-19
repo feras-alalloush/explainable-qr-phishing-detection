@@ -1,0 +1,10 @@
+{
+  "selected_weights": "/kaggle/working/qr_three_systems_frozen_v1/best_epoch_00_ea2f3f7f9eb4.pt",
+  "best_validation_macro_f1": 0.9669702102533924,
+  "selected_epoch": 0,
+  "cache_shards_train": 174,
+  "cache_shards_val": 37,
+  "source_models_unchanged": true,
+  "test_evaluated": false,
+  "legacy_text_provenance": "No data_signature in original text checkpoint. Dossier describes grouped Train training; exact old membership must be documented before claiming independent Test performance."
+}

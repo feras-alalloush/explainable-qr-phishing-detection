@@ -1,0 +1,30 @@
+{
+  "cfg": {
+    "seed": 42,
+    "epochs": 10,
+    "patience": 3,
+    "batch_size": 1024,
+    "eval_batch_size": 4096,
+    "lr": 0.001,
+    "weight_decay": 0.0001,
+    "label_smoothing": 0.1,
+    "clip": 1.0,
+    "threshold": 0.5,
+    "initialization": "random",
+    "input_size": 512,
+    "hidden_sizes": [
+      256,
+      128
+    ],
+    "dropout": 0.3,
+    "train_rows": "available URLs only; both frozen features concatenated visual then text",
+    "missing_url_policy": "visual fallback",
+    "selection": "best trained epoch >=1 by full Validation Macro-F1"
+  },
+  "source_cache_id": "2024efbb0aaa345a6a7ef59f117ed74f649b34a947d79897d35ede1ca3b2efd2",
+  "source_config_sha256": "118ea104b1a2965c46e464bf683bd06147db00e2592ad20f52af6b32a50fb197",
+  "data_signature": "d4509181f834a16144ad45e24b8ce686a4e608e07a9846a880757c705739d1ff",
+  "visual_sha256": "11f170e26ba4e96a8ceaba4cbac66d26d5b8829aad9f79a1e898377eda92dfab",
+  "text_sha256": "63d4fbc8afcd15ee39df27ad9fc8eec966d365b8c9ee02cef4f99c8bc79a98a4",
+  "torch_version": "2.10.0+cu128"
+}

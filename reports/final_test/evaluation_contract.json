@@ -1,0 +1,27 @@
+{
+  "weights": "/kaggle/working/qr_three_systems_random_fusion_v1/selected_three_systems_epoch_01_b06b88974bbe.pt",
+  "weights_sha256": "e2b6d3efb5b4b6b61a201fbd55df573c4e6f793e0abd75c69f045cc5a6011903",
+  "selected_epoch": 1,
+  "data_signature": "d4509181f834a16144ad45e24b8ce686a4e608e07a9846a880757c705739d1ff",
+  "manifest": "/kaggle/working/qr_visual_fresh/verified_mobilenet_inputs/splits_verified.parquet",
+  "systems": [
+    "visual",
+    "text",
+    "feature_fusion",
+    "text_with_visual_fallback"
+  ],
+  "threshold": 0.5,
+  "max_len": 128,
+  "precision": "FP32",
+  "batch_size": 128,
+  "url_available_definition": "ok==1 and saved URL is nonblank",
+  "fusion_policy": "visual fallback; feature head used only when URL is available",
+  "url_source": "Saved decoded URLs from original manifest; no fresh QR decoding or URL access",
+  "text_missing_policy": "Legacy saved fallback URL; results reported separately",
+  "test_history": "Test previously evaluated for visual experiments; this is a documented re-evaluation after Validation model selection",
+  "text_provenance": "Legacy BERT checkpoint lacked data_signature; report training-membership provenance explicitly",
+  "versions": {
+    "torch": "2.10.0+cu128",
+    "torchvision": "0.25.0+cu128"
+  }
+}

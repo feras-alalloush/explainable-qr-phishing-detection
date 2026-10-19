@@ -1,0 +1,26 @@
+{
+  "cfg": {
+    "seed": 42,
+    "epochs": 5,
+    "patience": 2,
+    "batch_size": 32,
+    "eval_batch_size": 128,
+    "backbone_lr": 2e-05,
+    "head_lr": 5e-05,
+    "weight_decay": 1e-05,
+    "label_smoothing": 0.1,
+    "img_size": 224,
+    "clip": 1.0,
+    "num_workers": 0,
+    "amp": false,
+    "threshold": 0.5,
+    "max_train": null
+  },
+  "data_signature": "d4509181f834a16144ad45e24b8ce686a4e608e07a9846a880757c705739d1ff",
+  "source_sha256": "9551f2c9e7e3a5b1d0a0d31264e0d67be612995d196d09c76fd190b23494008c",
+  "versions": {
+    "torch": "2.10.0+cu128",
+    "torchvision": "0.25.0+cu128"
+  },
+  "phase": "warm start from visual 200K; fresh optimizer; all 710746 training images"
+}

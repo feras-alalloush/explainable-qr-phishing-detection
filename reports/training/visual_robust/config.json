@@ -1,0 +1,37 @@
+{
+  "cfg": {
+    "seed": 42,
+    "epochs": 5,
+    "patience": 2,
+    "batch_size": 32,
+    "eval_batch_size": 128,
+    "backbone_lr": 1e-05,
+    "head_lr": 2e-05,
+    "weight_decay": 1e-05,
+    "label_smoothing": 0.1,
+    "img_size": 224,
+    "clip": 1.0,
+    "num_workers": 0,
+    "amp": false,
+    "threshold": 0.5,
+    "max_train": null,
+    "augment_probability": 0.5,
+    "train_sizes": [
+      208,
+      216,
+      224
+    ],
+    "max_shift": 4,
+    "robust_per_class": 500,
+    "clean_tolerance": 0.01,
+    "selection": "0.5*full_clean_macro_f1 + 0.5*mean_six_transformed_macro_f1",
+    "augmentation_version": 1
+  },
+  "data_signature": "d4509181f834a16144ad45e24b8ce686a4e608e07a9846a880757c705739d1ff",
+  "source_sha256": "c3a0cc0601e23f732a4a9ce86dddb6a3a1a6501183263a850fdc44689e079fde",
+  "versions": {
+    "torch": "2.10.0+cu128",
+    "torchvision": "0.25.0+cu128"
+  },
+  "phase": "warm start from phase1 epoch4; fresh optimizer; robustness augmentation; Validation only"
+}

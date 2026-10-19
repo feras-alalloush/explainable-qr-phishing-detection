@@ -1,0 +1,53 @@
+{
+  "selected_trained_epoch": 1,
+  "selected_head": "/kaggle/working/qr_three_systems_random_fusion_v1/best_epoch_01_a617658811af.pt",
+  "full_model": "/kaggle/working/qr_three_systems_random_fusion_v1/selected_three_systems_epoch_01_b06b88974bbe.pt",
+  "feature_fusion_validation": {
+    "system": "feature_fusion",
+    "group": "all",
+    "samples": 148529,
+    "accuracy": 0.9673935729722815,
+    "macro_f1": 0.9664377020624422,
+    "malicious_precision": 0.9665505865102639,
+    "malicious_recall": 0.9777170071495614,
+    "malicious_f1": 0.9721017310406406,
+    "roc_auc": 0.9942079996595852,
+    "average_precision": 0.9945055695822005,
+    "confusion_matrix": [
+      [
+        59310,
+        2920
+      ],
+      [
+        1923,
+        84376
+      ]
+    ]
+  },
+  "router_baseline_validation": {
+    "samples": 148529,
+    "accuracy": 0.967878326791401,
+    "macro_f1": 0.9669702102533924,
+    "malicious_precision": 0.9693177369960165,
+    "malicious_recall": 0.9755964727285368,
+    "malicious_f1": 0.9724469700907269,
+    "roc_auc": 0.9956375804009365,
+    "average_precision": 0.9967547305819711,
+    "confusion_matrix": [
+      [
+        59565,
+        2665
+      ],
+      [
+        2106,
+        84193
+      ]
+    ]
+  },
+  "beats_router_macro_f1": false,
+  "ablations_group": "Validation URL available only; descriptive diagnostics, not causal proof",
+  "test_evaluated": false,
+  "backbones_retrained": false,
+  "features_recomputed": false,
+  "legacy_text_provenance": "Original text checkpoint has no data_signature; document old Train membership before independent-Test claims."
+}

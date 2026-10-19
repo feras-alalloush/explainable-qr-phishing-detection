@@ -1,0 +1,8 @@
+{
+  "original_rows": 1005738,
+  "retained_rows": 1005700,
+  "source_csv_sha256": "4528f7378e5f99c9ae573fb01436eeb3de4f7b5ae3079c1c9b9d3e0cfc30dd35",
+  "indices_sha256": "c79b88e6c88c1a2606ce766ff35ca18f8aa94bdc4822942dd34f9edc4404ccb5",
+  "data_signature": "d4509181f834a16144ad45e24b8ce686a4e608e07a9846a880757c705739d1ff",
+  "order": "Exact saved clean-manifest order; positions are zero-based rows in the immutable source CSV"
+}
