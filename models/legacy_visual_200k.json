@@ -1,0 +1,7 @@
+{
+  "file": "legacy_visual_200k.pt",
+  "sha256": "9551f2c9e7e3a5b1d0a0d31264e0d67be612995d196d09c76fd190b23494008c",
+  "bytes": 4857755,
+  "original_name": "abl_visual_n200000_seed42.pt",
+  "role": "Original 200K visual warm-start source"
+}
