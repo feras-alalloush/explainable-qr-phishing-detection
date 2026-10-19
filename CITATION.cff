@@ -1,8 +1,0 @@
-cff-version: 1.2.0
-message: "Please cite this research software; update repository and publication identifiers when assigned."
-title: "Explainable QR Code Phishing Detection: Visual, Text and Feature Fusion"
-authors:
-  - family-names: "العلوش"
-    given-names: "فراس"
-version: "0.1.0"
-type: software
